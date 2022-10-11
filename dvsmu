@@ -104,6 +104,8 @@ file=/opt/user$USER_NO/Analog_Bridge.ini
 	$update_ini $file USRP rxPort $usrp_port
 	declare emu_port=$(($USER_NO_NO+2470))
 	$update_ini $file GENERAL emulatorAddress 127.0.0.1:$emu_port
+	declare pcm_port=$(($USER_NO_NO+2222))
+	$update_ini $file GENERAL pcmPort $pcm_port
 	dmr="ambeMode = DMR"
 	sudo sed -i "/^ambeMode/ c $dmr" $file
 
