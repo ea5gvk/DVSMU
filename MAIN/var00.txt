@@ -42,9 +42,9 @@ bm_password=
 bm_port=
 
 dmrplus_name=DMRPlus
-dmrplus_address=
-dmrplus_password=
-dmrplus_port=
+dmrplus_address=eamaster04.xreflector.es
+dmrplus_password=PASSWORD
+dmrplus_port=55555
 
 tgif_name=TGIF
 tgif_address=tgif.network
@@ -52,7 +52,7 @@ tgif_password=passw0rd
 tgif_port=62031
 
 other1_name=FreeDMR
-other1_address=freedmr-hp.ddns.net
+other1_address=freedmr-spain.duckdns.org
 other1_password=passw0rd
 other1_port=62031
 
